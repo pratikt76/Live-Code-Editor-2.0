@@ -56,3 +56,10 @@ $(document).ready(function () {
     sessionStorage.clear();
   }
 });
+
+// If You are reading this you have so much time go and do something productive
+// look at code why are you reading this useless comments
+// Just Writing this one so github think that their is more javascript 
+// In this code so let's write anything
+// My name is Pratik Thombare
+
