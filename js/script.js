@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  // Publish output from HTMl, CSS, and JS textareas in the iframe below
+  
   onload = document.onkeyup = function () {
     document
       .getElementById("preview")
@@ -14,7 +14,7 @@ $(document).ready(function () {
     document.getElementById("preview").contentWindow.document.close();
   };
 
-  // Pressing the Tab key inserts 2 spaces instead of shifting focus
+  
   $("textarea").keydown(function (event) {
     if (event.keyCode === 9) {
       var start = this.selectionStart;
@@ -27,7 +27,7 @@ $(document).ready(function () {
     }
   });
 
-  // Store contents of textarea in sessionStorage
+  
   $("textarea").keydown(function () {
     sessionStorage[$(this).attr("id")] = $(this).val();
   });
